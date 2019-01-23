@@ -13,7 +13,7 @@ namespace app
 	    public void Update(IService service)
 	    {
 		    Console.WriteLine("UPDATE APP");
-		    service.Update();
+		    service.UseFrameworkService();
 	    }
 
 	    public void Shutdown()

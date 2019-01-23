@@ -5,7 +5,7 @@ namespace Framework
 {
 	public class FrameworkService : IService
 	{
-		public void Update()
+		public void UseFrameworkService()
 		{
 			Console.WriteLine("CALLING SERVICE");
 		}
